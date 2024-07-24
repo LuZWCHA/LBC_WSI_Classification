@@ -83,13 +83,7 @@ def register_all_tct(name, train_anno_file, test_anno_file):
         register_tct(n, a)
 
 # TODO
-# train_txt = TCT_WSI_RAW.at(TCT_WSI_RAW.default_train_file_path)
-# test_txt = TCT_WSI_RAW.at(TCT_WSI_RAW.default_test_file_path)
-# train_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_10/train.txt"
-# test_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_10/test.txt"
-# train_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_compare_diff_batch/train_batch_2.txt"
-# test_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_compare_diff_batch/test.txt"
-train_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_13/train.txt"
-test_txt = "/nasdata/private/zwlu/Now/ai_trainer/outputs/pesudo_label/annos/mix_annos_13/test.txt"
+train_txt = "outputs/pesudo_label/annos/mix_annos_13/train.txt"
+test_txt = "outputs/pesudo_label/annos/mix_annos_13/test.txt"
 
 register_all_tct('abp_tct_wsi_patch', train_txt, test_txt)

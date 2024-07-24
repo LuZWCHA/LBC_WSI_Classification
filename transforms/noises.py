@@ -342,7 +342,7 @@ def fusion(img, noise, scale):
 
 class RandomNoise:
     
-    def __init__(self, scale=1, noise_tempates_dir="/nasdata/private/zwlu/Now/ai_trainer/.data/noises/", cache_size=128, resize_mode="shortest_edge") -> None:
+    def __init__(self, scale=1, noise_tempates_dir=".data/noises/", cache_size=128, resize_mode="shortest_edge") -> None:
         self.path = noise_tempates_dir
         self.template = glob.glob(self.path + "*.jpg")
         self.rng = random.Random(0)

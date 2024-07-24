@@ -365,7 +365,6 @@ class RandomNoise:
 
             end = time.time_ns()
             self.load_times.append((end - start) / 1e6)
-            # print(self.load_times[-1])
             if len(self.noise_cache) >= self.cache_size:
                 self.noise_cache.popitem(True)
             self.noise_cache[t_id] = noise

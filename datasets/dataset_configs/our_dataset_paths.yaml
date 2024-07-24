@@ -1,0 +1,13 @@
+# This config file record all dataset paths
+# Please follow the Key-Value format (below lines) to make the `our_datasets.py` working
+
+WSI_RAW:  /nasdata/dataset/ai_lab_sync/slides/
+SHISHI_RAW: /nasdata/dataset/shishi_data/
+WSI_RAW_LABEL: /nasdata/dataset/slide_dataset_labels/
+WSI_PATCH: /nasdata/dataset/wsi_patch_data/
+TCT_WSI_RAW: /nasdata/dataset/moshi_data/
+TCT_WSI_RAW_LABEL: /nasdata/dataset/moshi_label/
+Cx22_SEG_RAW: /nasdata/dataset/CCEDD/
+WSI_SHISHI_MIX_RAW: /nasdata/dataset/wsi_shishi_mix_data/
+WSI_SHISHI_MIX_V2_RAW: /nasdata/dataset/wsi_shishi_mix_data_v2/
+LR_SR_COMPARE_TEST_RAW: /nasdata/dataset/sr_and_lr_test/

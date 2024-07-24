@@ -1,0 +1,17 @@
+staintools
+torch
+opencv_python
+scipy
+numpy
+imageio
+scikit_image
+visdom
+tqdm
+imgaug
+Pillow
+scikit-image~
+spams
+
+opencv-python
+lmdb
+torchvision
